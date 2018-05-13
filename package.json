@@ -1,0 +1,35 @@
+{
+  "name": "nodesplash",
+  "version": "1.0.0",
+  "description": "NodeJS library for interacting with the Unsplash API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkisu/nodesplash.git"
+  },
+  "keywords": [
+    "unsplash",
+    "photos",
+    "api",
+    "sdk",
+    "library"
+  ],
+  "author": "Keith Mitchell <keith.mitchell@live.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkisu/nodesplash/issues"
+  },
+  "homepage": "https://github.com/xkisu/nodesplash#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eventemitter3": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^5.0.1",
+    "mocha": "^5.1.1"
+  }
+}
